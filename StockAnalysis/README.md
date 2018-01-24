@@ -3,12 +3,10 @@
 
 This is a Time Series practice with Pandas. We are looking at a set of stock price data for Apple from the date '1982-01-01' (although first available date was the 4th) and '2018-01-23'. Below is the plotted graph of the closing price:<br>
 
-<img width="773" alt="screen shot 2018-01-23 at 2 18 13 am" src="https://user-images.githubusercontent.com/32026039/35270474-178de0b6-ffe4-11e7-9c65-487e94f6a808.png">
+<img width="773" alt="screen shot 2018-01-23 at 2 18 13 am" src="https://user-images.githubusercontent.com/32026039/35270474-178de0b6-ffe4-11e7-9c65-487e94f6a808.png"><br>
+There is a continuous upward trend for Apple stock price around 2004; the rate of of increse goes up beginning in 2010 and continous to current day.
 
 <br><br>
-The method used here is pct_change, which calculates the percent change with a set period; here it is set to 5, which is 5 days window. nlargest is used to get the five largest stock price surge.<br>
-
-Highest surge happened within three days of eachother, for example, in 1997, highest surge time frames were consecutively starting August 1st, 2nd, and 3rd; in 1998, highest surge was between January 1st and 6th, as well as January 3rd and 8th. These are not sudden surgest that happen over one day, but has a pattern that starts to rise on day one and continues to reach its peak, then finally starts to go downward.<br>
 I also plotted a graph for highest closing price surge over rolling quarters (financial year ending in September)<br><br>
 
 <img width="778" alt="screen shot 2018-01-23 at 4 58 31 pm" src="https://user-images.githubusercontent.com/32026039/35308895-b17ad93e-005e-11e8-82b9-ecc63ce4221a.png"><br><br>
